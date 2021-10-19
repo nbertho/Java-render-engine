@@ -4,7 +4,7 @@ import com.berthoenterprise.engine.gamecontroller.gameenum.Status;
 
 public class GameController {
 
-    protected Status status;
+    protected Status status = Status.START;
 
     protected boolean gameStarted = false;
     protected boolean optionsStarted = false;
